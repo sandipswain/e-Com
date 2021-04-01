@@ -1,15 +1,14 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-.header {
+.testimonial-header{
     text-align: center;
     margin-top: 50px;
     margin-bottom: -80px;
 }
 
-.header .header-h1 {
+.testimonial-header .header-h1{
     color: black;
     font-size: 3rem;
     font-weight: 400;
@@ -18,28 +17,28 @@
     margin: 0px;
 }
 
-.header .header-p1 {
+.testimonial-header .header-p1{
     color: gray;
     font-size: 1rem;
     margin: 5px;
     text-align: center;
 }
 
-main {
-    width: 80%;
-    margin: 120px auto;
-    display: grid;
-    grid-template-rows: repeat(2, 150px);
-    grid-template-columns: repeat(auto-fit, minmax(150px, 360px));
-    grid-row-gap: 180px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 30px rgb(6, 253, 138);
-    transition: all ease 0.5s;
-    /* border: 1px solid black; */
-
+main{
+      width: 80%;
+      margin: 120px auto;
+      display: grid;
+      grid-template-rows: repeat(2, 150px);
+      grid-template-columns:  repeat(auto-fit, minmax(150px,360px));
+      grid-row-gap: 180px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 30px rgb(6, 253, 138);
+	  transition: all ease 0.5s;
+      /* border: 1px solid black; */
+      
 }
 
-.p {
+.p{
     margin-top: 70px;
     font-size: 24px;
     font-weight: 400px;
@@ -47,115 +46,59 @@ main {
     font-style: italic;
     line-height: 1.33;
     letter-spacing: normal;
-    color: #011f3a;
+    color: #011f3a; 
     max-width: 400px;
-    margin-bottom: 16px;
+    margin-bottom: 16px; 
 }
 
-.editor {
-    margin-top: -45px;
-    margin-left: 80px;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 1.6;
-    color: #a1a1a1;
+.editor{
+        margin-top: -45px;
+        margin-left: 60px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.6;
+        color: #a1a1a1;
 }
 
-.div1 {
+.div1{
     margin-left: 20px;
 }
-
-.div4 {
+.div4{
     margin-left: 20px;
     padding: 20px;
 }
-
-.div7 {
+.div7{
     margin-left: 20px;
 }
 
+.di1{
+    
+    width: 5rem;
+}
 
-/* @media(max-width:1050px){
-      .header{
-          width: auto;
-      }
-      .header .header-h1{
-          font-size: 22px;
-      }
-      .header .header-p1{
-          font-size: 18px;
-      }
-      .div2{
-          width: 12px;
-          visibility: hidden;
-      }
-      .div3{
-          margin-top: -450px;;
-      }
-      .img1{
-          width: 205px;
-          margin-left: 25px;
-      }
-      .p{
-      font-size: 20px; 
-      text-align: center;
-      margin-top: -15px;
-      }
+@media(max-width:1050px){
+        .testimonial-header{
+            width: auto;
+        }
+        .testimonial-header .header-h1{
+            font-size: 22px;
+        }
+        .testimonial-header .header-p1{
+            font-size: 18px;
+        }
 
-      .di1{
-          width: 35px;
-          margin-left: 35px;
-          padding: 8px;
-      }
-      .editor{
-          margin-left: 90px;
-      }
-
-      .div6{
-          visibility: hidden;
-      }
-
-      .div5{
-          margin-top: -850px;
-          margin-left: 25px;
-      }
-
-     .div4{
-         border: 1px solid black;
-         padding-top: -600px;
-     }
-     
-
-
-
-    } */
-
-@media(max-width:1050px) {
-    .header {
-        width: auto;
-    }
-
-    .header .header-h1 {
-        font-size: 22px;
-    }
-
-    .header .header-p1 {
-        font-size: 18px;
-    }
-
-    .div2 {
-        display: none;
-    }
-
-    .img1 {
-        width: 250px;
-        /* align-items: center;
+        .div2{
+            display: none;
+        }
+        .img1{
+            width: 250px;
+            /* align-items: center;
             justify-content: center; */
-        justify-items: center;
-        margin-left: 10px;
-    }
-
-    /* .p{
+            justify-items: center;
+            margin-left: 10px;
+        }
+    
+        /* .p{
             font-size: 20px; 
             text-align: center;
             margin-top: -15px;
@@ -170,74 +113,72 @@ main {
                 margin-left: 90px;
             } */
 
-    main {
-        grid-row-gap: 40px;
-    }
+            main{
+                grid-row-gap: 40px;
+            }
+            .p{
+                font-size: 20px; 
+                text-align: center;
+             }
 
-    .p {
-        font-size: 20px;
-        text-align: center;
-    }
+             .di1{
+                width: 5rem;
+                margin-left: 35px;
+                padding: 10px;
+            }
+            .editor{
+                margin-left: 85px;
+            }
 
-    .di1 {
-        width: 35px;
-        margin-left: 35px;
-        padding: 10px;
-    }
+            .div5{
+                display: none;
+            }
+            .div6{
+                /* position: relative; */
+                margin-left: 12px;
+        
+            }
+            .div4{
+            grid-row-end: 5;
+            margin-top: -125px;
+            }
 
-    .editor {
-        margin-left: 90px;
-    }
+            .di2{
+                margin-left: -2px;
+                margin-top: -30px;
+            }
+            .editorSub{
+                margin-left: 55px;
+            }
 
-    .div5 {
-        display: none;
-    }
+            .div7{
+             /* border: 1px solid black; */
+             margin-top: -50px;
+            }
+            .div8{
+                /* margin-top: 100px; */
+                display: none;
+            }
 
-    .div6 {
-        position: relative;
-        margin-left: 12px;
+            .div9{
+                margin-top: -120px;
+            }
 
-    }
+            .di3{
+                margin-top: -20px;
+            }
 
-    .div4 {
-        position: absolute;
-        width: 230px;
-        top: 700px;
-    }
+            .editorSub1{
+            /* border: 1px solid black; */
+            margin-bottom: 30px;
+            }
 
-    .di2 {
-        margin-left: -2px;
-        margin-top: -30px;
-    }
+            .testimonial{
+                width: 100%;
+            }
 
-    .editorSub {
-        margin-left: 55px;
-    }
 
-    .div7 {
-        /* border: 1px solid black; */
-        margin-top: 100px;
-    }
 
-    .div8 {
-        /* margin-top: 100px; */
-        display: none;
-    }
 
-    .div9 {
-        margin-top: -120px;
-    }
-
-    .di3 {
-        margin-top: -20px;
-    }
-
-    .editorSub1 {
-        /* border: 1px solid black; */
-        margin-bottom: 30px;
-    }
-
-    .testimonial {
-        width: 100%;
-    }
+      
 }

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -42,8 +41,7 @@ a {
     color: #333;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
@@ -57,17 +55,17 @@ img {
     width: 100%;
 }
 
-/* .main-header {
-    background-image: linear-gradient(to top left, #6DD5FA, #2980B9);
-
-} */
-
+.main-header {
+    background-image: linear-gradient(to right bottom, #6DD5FA, #2980B9);
+    height: 100vh;
+}
 
 /* Navbar */
+
 .navbar {
-    background-image: linear-gradient(to top left, #6DD5FA, #2980B9);
+    background-image: transparent;
     color: #fff;
-    height: 70px;
+    height: 80px;
 }
 
 .navbar ul {
@@ -81,11 +79,9 @@ img {
     /* background-color: #333; */
 }
 
-
 .link {
     position: relative;
 }
-
 
 .link::after {
     content: '';
@@ -108,10 +104,10 @@ img {
 }
 
 .logo {
-    left: 5%;
     position: absolute;
+    left: 17rem;
+    font-size: 5rem;
     /* background-color: #333; */
-
 }
 
 nav ul li {
@@ -120,14 +116,13 @@ nav ul li {
     /* background-color: aqua; */
 }
 
-
 .icons {
     display: flex;
     list-style: none;
     text-decoration: none;
     /* background-color: #333; */
-    right: 5%;
     position: absolute;
+    right: 17rem;
     width: 10%;
 }
 
@@ -145,8 +140,8 @@ nav ul li {
 
 .discount-btn {
     position: absolute;
-    left: 25%;
-    top: -59%;
+    left: 55%;
+    top: -65%;
     font-size: 10px;
     width: 37px;
     font-weight: bold;
@@ -165,71 +160,61 @@ nav ul li {
     0% {
         transform: rotate(-30deg);
     }
-
     10% {
         transform: rotate(-24deg);
     }
-
     20% {
         transform: rotate(-33deg);
     }
-
     30% {
         transform: rotate(-30deg);
     }
-
     40% {
         transform: rotate(-31deg);
     }
-
     50% {
         transform: rotate(-25deg);
     }
-
     60% {
         transform: rotate(-28deg);
     }
-
     70% {
         transform: rotate(-29deg);
     }
-
     80% {
         transform: rotate(-32deg);
     }
-
     90% {
         transform: rotate(-30deg);
     }
-
     100% {
         transform: rotate(-29deg);
     }
 }
 
 /* Showcase */
+
 .whole-showcase {
     height: 660px;
-    background: linear-gradient(rgba(84, 32, 133, 0.651), rgba(41, 122, 192, 0.6));
+    background: transparent;
     top: 20px;
 }
 
 .showcase {
     height: 650px;
-    background: url('img/viewport_background.jpg');
+    background-image: url('../img/viewport_background.jpg');
     object-fit: contain;
     opacity: 0.15;
     border-radius: 5000px;
     color: #fff;
-    position: relative;
     padding: 70px;
 }
 
 .header-txt {
     position: absolute;
     max-width: 500px;
-    top: 150px;
-    left: 240px;
+    top: 250px;
+    left: 17rem;
     font-size: 40px;
     font-weight: bold;
 }
@@ -237,19 +222,19 @@ nav ul li {
 .effect {
     position: absolute;
     max-width: 500px;
-    top: 225px;
-    left: 240px;
+    top: 350px;
+    left: 250px;
     font-size: 20px;
     color: #fff
 }
 
 .model-img {
     display: flex;
-    width: 850px;
+    width: 880px;
     margin: auto;
     position: absolute;
     /* background-color: #ff9800; */
-    right: 6px;
+    right: 12px;
     top: 140px;
     object-fit: contain;
     border-radius: 1000px;
@@ -262,12 +247,12 @@ nav ul li {
 
 .btn {
     /* position: absolute; */
-    bottom: 380px;
-    display: flex;
-    left: 300px;
-    border-radius: 200px;
     position: relative;
-    outline: none;
+    bottom: 275px;
+    display: flex;
+    left: 17rem;
+    border-radius: 2000px;
+    border: 2px solid #6DD5FA;
 }
 
 .btn a:hover i {
@@ -275,9 +260,8 @@ nav ul li {
 }
 
 .btn-color {
-    background-color: purple;
-    color: azure;
-    border: 1px solid purple;
+    background-color: #fff;
+    color: #134D7E;
     cursor: pointer;
     font-size: 14px;
     text-transform: uppercase;
@@ -293,18 +277,19 @@ button:hover {
 
 button .circle {
     position: absolute;
-    background-color: #fff;
+    background-color: #6DD5FA;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     transform: translate(-50%, -50%) scale(0);
-    animation: scale 0.5s ease-out;
+    animation: scaleDemo 3s;
+    animation-iteration-count: 1;
 }
 
-@keyframes scale {
-    to {
+@keyframes scaleDemo {
+    100% {
         transform: translate(-50%, -50%) scale(3);
-        opacity: 0;
+        opacity: 0.5;
     }
 }
 
@@ -313,6 +298,7 @@ h1 {
 }
 
 /* Certified Icons */
+
 .certified {
     display: flex;
     justify-content: space-evenly;
@@ -321,16 +307,17 @@ h1 {
 }
 
 .certify {
-    width: 220px;
-    height: 220px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     object-fit: contain;
     opacity: 0.3;
 }
 
-.num-1 {
-    /* background-color: #047aed; */
-}
+/* .num-1 {
+     background-color: #047aed; 
+
+}*/
 
 .num-2 {
     /* background-color: #ff9800; */

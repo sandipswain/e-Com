@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -101,7 +99,7 @@ body {
     justify-content: center;
 }
 
-.btn {
+.category-btn {
     background: linear-gradient(to top right, #2980b9, #6dd5fa, #ffffff);
     height: 6rem;
     width: 22rem;
