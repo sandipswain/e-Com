@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
@@ -41,7 +42,8 @@ a {
     color: #333;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-weight: 300;
     line-height: 1.2;
     margin: 10px 0;
@@ -160,33 +162,43 @@ nav ul li {
     0% {
         transform: rotate(-30deg);
     }
+
     10% {
         transform: rotate(-24deg);
     }
+
     20% {
         transform: rotate(-33deg);
     }
+
     30% {
         transform: rotate(-30deg);
     }
+
     40% {
         transform: rotate(-31deg);
     }
+
     50% {
         transform: rotate(-25deg);
     }
+
     60% {
         transform: rotate(-28deg);
     }
+
     70% {
         transform: rotate(-29deg);
     }
+
     80% {
         transform: rotate(-32deg);
     }
+
     90% {
         transform: rotate(-30deg);
     }
+
     100% {
         transform: rotate(-29deg);
     }
@@ -314,10 +326,12 @@ h1 {
     opacity: 0.3;
 }
 
-/* .num-1 {
-     background-color: #047aed; 
-
-}*/
+.num-1 {
+    /* background-color: #047aed; */
+    height: 250px;
+    width: 250px;
+    /* margin-top: 5px; */
+}
 
 .num-2 {
     /* background-color: #ff9800; */
