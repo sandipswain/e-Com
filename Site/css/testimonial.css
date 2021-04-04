@@ -2,73 +2,84 @@
     margin: 0;
     padding: 0;
 }
+
+html{
+    font-size: 62.5%;
+}
 .testimonial-header{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: -80px;
+    /* margin-top: 50px; */
+    margin-top: 5rem;
+    /* margin-bottom: -80px; */
+    margin-bottom: -8rem;
 }
 
 .testimonial-header .header-h1{
     color: black;
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 5rem;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: capitalize;
-    margin: 0px;
+    
 }
 
 .testimonial-header .header-p1{
     color: gray;
-    font-size: 1rem;
+    font-size: 2.6rem;     /* todo */
     margin: 5px;
     text-align: center;
 }
 
 main{
       width: 80%;
-      margin: 120px auto;
+      /* margin: 120px auto; */
+      margin: 12rem auto;
       display: grid;
-      grid-template-rows: repeat(2, 150px);
-      grid-template-columns:  repeat(auto-fit, minmax(150px,360px));
-      grid-row-gap: 180px;
-      border-radius: 10px;
-      box-shadow: 2px 2px 30px rgb(6, 253, 138);
+      grid-template-rows: repeat(2, 15rem);
+      grid-template-columns:  repeat(auto-fit, minmax(15rem,36rem));
+      /* grid-row-gap: 180px;
+      border-radius: 10px; */
+      grid-row-gap: 18rem;
+      border-radius: 1rem;
+      box-shadow: 2px 2px 3rem gray;
 	  transition: all ease 0.5s;
+      justify-content: center;
       /* border: 1px solid black; */
       
 }
 
 .p{
-    margin-top: 70px;
-    font-size: 24px;
-    font-weight: 400px;
+    margin-top: 7rem;
+    font-size: 2.4rem;
+    font-weight: 400;
     font-stretch: normal;
     font-style: italic;
     line-height: 1.33;
     letter-spacing: normal;
     color: #011f3a; 
-    max-width: 400px;
-    margin-bottom: 16px; 
+    max-width: 40rem;
+    margin-bottom: 1.6rem; 
 }
 
 .editor{
-        margin-top: -45px;
-        margin-left: 60px;
-        font-size: 15px;
+        margin-top: -4.5rem;
+        margin-left: 6rem;
+        font-size: 1.5rem;
         font-weight: 500;
         line-height: 1.6;
         color: #a1a1a1;
 }
 
 .div1{
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 .div4{
-    margin-left: 20px;
-    padding: 20px;
+    margin-left: 2rem;
+    padding: 2rem;
 }
 .div7{
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .di1{
@@ -77,25 +88,29 @@ main{
 }
 
 @media(max-width:1050px){
+
+    html{
+        font-size: 50%;
+    }
         .testimonial-header{
             width: auto;
         }
         .testimonial-header .header-h1{
-            font-size: 22px;
+            font-size: 2.2rem;
         }
         .testimonial-header .header-p1{
-            font-size: 18px;
+            font-size: 1.8rem;
         }
 
         .div2{
             display: none;
         }
         .img1{
-            width: 250px;
+            width: 25rem;
             /* align-items: center;
             justify-content: center; */
             justify-items: center;
-            margin-left: 10px;
+            margin-left: 1rem;
         }
     
         /* .p{
@@ -114,20 +129,20 @@ main{
             } */
 
             main{
-                grid-row-gap: 40px;
+                grid-row-gap: 4rem;
             }
             .p{
-                font-size: 20px; 
+                font-size: 2rem; 
                 text-align: center;
              }
 
              .di1{
                 width: 5rem;
-                margin-left: 35px;
-                padding: 10px;
+                margin-left: 3.5rem;
+                padding: 1rem;
             }
             .editor{
-                margin-left: 85px;
+                margin-left: 8.5rem;
             }
 
             .div5{
@@ -135,25 +150,25 @@ main{
             }
             .div6{
                 /* position: relative; */
-                margin-left: 12px;
+                margin-left: 1.2rem;
         
             }
             .div4{
             grid-row-end: 5;
-            margin-top: -125px;
+            margin-top: -12.5rem;
             }
 
             .di2{
                 margin-left: -2px;
-                margin-top: -30px;
+                margin-top: -3rem;
             }
             .editorSub{
-                margin-left: 55px;
+                margin-left: 5.5rem;
             }
 
             .div7{
              /* border: 1px solid black; */
-             margin-top: -50px;
+             margin-top: -5rem;
             }
             .div8{
                 /* margin-top: 100px; */
@@ -161,16 +176,16 @@ main{
             }
 
             .div9{
-                margin-top: -120px;
+                margin-top: -12rem;
             }
 
             .di3{
-                margin-top: -20px;
+                margin-top: -2rem;
             }
 
             .editorSub1{
             /* border: 1px solid black; */
-            margin-bottom: 30px;
+            margin-bottom: 3rem;
             }
 
             .testimonial{
