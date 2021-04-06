@@ -264,7 +264,8 @@ nav ul li {
     display: flex;
     left: 17rem;
     border-radius: 2000px;
-    border: 2px solid #6DD5FA;
+    border: 2px solid #444849;
+    outline: none;
 }
 
 .btn a:hover i {
@@ -272,8 +273,8 @@ nav ul li {
 }
 
 .btn-color {
-    background-color: #fff;
-    color: #134D7E;
+    background-color: rgb(71, 80, 204);
+    color: #fff;
     cursor: pointer;
     font-size: 14px;
     text-transform: uppercase;
@@ -281,10 +282,6 @@ nav ul li {
     padding: 20px 30px;
     overflow: hidden;
     margin: 10px 0;
-}
-
-button:hover {
-    outline: none;
 }
 
 button .circle {
@@ -328,9 +325,9 @@ h1 {
 
 .num-1 {
     /* background-color: #047aed; */
-    height: 250px;
-    width: 250px;
-    /* margin-top: 5px; */
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
 }
 
 .num-2 {
@@ -353,4 +350,13 @@ h1 {
     height: 120px;
     width: 120px;
     padding-top: 15px;
+}
+
+
+/* Certified Icons Mobile Responsiveness */
+@media(max-width:700px) {
+    .certify {
+        width: 50px;
+        height: 50px;
+    }
 }
