@@ -313,6 +313,7 @@ h1 {
     justify-content: space-evenly;
     /* background-color: #333; */
     height: 130px;
+    margin-top: 10px;
 }
 
 .certify {
@@ -324,24 +325,21 @@ h1 {
 }
 
 .num-1 {
-    /* background-color: #047aed; */
+    background-color: #047aed;
     height: 90px;
     width: 90px;
-    margin-top: 20px;
 }
 
 .num-2 {
     /* background-color: #ff9800; */
     height: 90px;
     width: 90px;
-    padding-top: 20px;
 }
 
 .num-3 {
     /* background-color: brown; */
     height: 90px;
     width: 90px;
-    padding-top: 20px;
     /* border: 3px black solid; */
     /* border-radius: 2000px !important; */
     border-radius: 50%;
@@ -351,12 +349,15 @@ h1 {
     /* background-color: darkblue; */
     height: 80px;
     width: 80px;
-    padding-top: 20px;
 }
 
 
 /* Certified Icons Mobile Responsiveness */
 @media(max-width:700px) {
+    .certified {
+        margin-top: -40px;
+    }
+
     .certify {
         width: 50px;
         height: 50px;
