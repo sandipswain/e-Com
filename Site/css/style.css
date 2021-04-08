@@ -107,7 +107,7 @@ img {
 
 .logo {
     position: absolute;
-    left: 17rem;
+    left: 12rem;
     font-size: 5rem;
     /* background-color: #333; */
 }
@@ -226,7 +226,7 @@ nav ul li {
     position: absolute;
     max-width: 500px;
     top: 250px;
-    left: 17rem;
+    left: 12rem;
     font-size: 40px;
     font-weight: bold;
 }
@@ -235,7 +235,7 @@ nav ul li {
     position: absolute;
     max-width: 500px;
     top: 350px;
-    left: 250px;
+    left: 175px;
     font-size: 20px;
     color: #fff
 }
@@ -262,7 +262,7 @@ nav ul li {
     position: relative;
     bottom: 275px;
     display: flex;
-    left: 17rem;
+    left: 12rem;
     border-radius: 2000px;
     border: 2px solid #444849;
     outline: none;
@@ -370,4 +370,94 @@ h1 {
         margin-top: 75px;
     }
 
+}
+
+/* Header responsiveness */
+
+@media only screen and (max-width: 56.25em) {
+    /*900px*/
+    .showcase {
+        border-radius: 100px;
+    }
+    .header-txt {
+        top: 175px;
+        left: 60px;
+        font-size: 40px;
+    }
+    .effect {
+        top: 230px;
+        left: 60px;
+    }
+    .btn {
+        bottom: 435px;
+        left: 60px;
+    }
+    .btn-color {
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin: 15px 0;
+    }
+    .model-img {
+        width: 750px;
+        position: absolute;
+        right: 0px;
+        top: 200px;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 37.5em) {
+    /*600px*/
+    .showcase {
+        border-radius: 10%;
+    }
+    .header-txt {
+        top: 150px;
+        left: 40px;
+        font-size: 40px;
+    }
+    .effect {
+        top: 205px;
+        left: 40px;
+    }
+    .btn {
+        bottom: 460px;
+        left: 40px;
+    }
+    .btn-color {
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin: 15px 0;
+    }
+    .model-img {
+        width: 625px;
+        position: absolute;
+        right: 0px;
+        top: 285px;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 28.125em) {
+    /*450px*/
+    .header-txt {
+        top: 175px;
+        left: 40px;
+        font-size: 35px;
+    }
+    .effect {
+        top: 230px;
+        left: 40px;
+    }
+    .btn {
+        bottom: 400px;
+        left: 40px;
+    }
+    .model-img {
+        width: 500px;
+        position: absolute;
+        right: 0px;
+        top: 367px;
+        border-radius: 0;
+    }
 }
