@@ -177,5 +177,18 @@ align-items: center;
 	.features-header{
 		 margin: 15px; 
 	}
+
+  .con-1 p{
+    color: gray;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000;
+   
+  }
+
+  .cont-body .con-1 h1{
+    font-size: 2rem;
+  }
 	
 }
