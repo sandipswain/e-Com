@@ -68,8 +68,22 @@
 }
 
 @media(max-width:700px) {
-    .item img {
-        width: 60%;
-    }
+    html{
+        font-size: 62.5%;
+      }
+ .item .brand-img{
+    width: 6rem;
+    /* margin-left: -12px; */
+    margin-top: 13px;
+ }
+ .brand-slider .slick-slide{
+     margin: 5px;
+ }
+   .brand-slider .item{
+       padding: 0;
+   } 
+   .brand-slider .item{
+       height: 65px;
+   }
 
 }

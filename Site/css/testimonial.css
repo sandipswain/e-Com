@@ -110,7 +110,7 @@ main{
             /* align-items: center;
             justify-content: center; */
             justify-items: center;
-            margin-left: 1rem;
+            margin-left: 3.5rem;
         }
     
         /* .p{
@@ -138,11 +138,11 @@ main{
 
              .di1{
                 width: 5rem;
-                margin-left: 3.5rem;
+                margin-left: 6.5rem;
                 padding: 1rem;
             }
             .editor{
-                margin-left: 8.5rem;
+                margin-left: 11.5rem;
             }
 
             .div5{
